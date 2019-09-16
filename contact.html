@@ -8,64 +8,57 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
+    <style>
+        body {
+            background-color: #f1eff1;
+        }
+    </style>
 </head>
 
 <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="index.html">Brooks Riekhof</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-        
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="index.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="portfolio.html">Portfolio</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-8">
-                        <div class="page-header">
-                            <h1>About me</h1>
-                            <div class="row">
-                                <div class="col-sm-4">
-                                    <img src="https://placehold.it/200x200" class="image.me" alt="picture">
-                                </div>
-                                <div class="col-sm-8">
-                                    <div class="text">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar quam odio, eu
-                                            varius mauris dignissim
-                                            quis. Morbi risus arcu, placerat sit amet fermentum et, sodales a urna. Donec
-                                            faucibus rhoncus nibh eget
-                                            accumsan. Fusce non mattis odio. Morbi congue eu lorem id dapibus. Phasellus
-                                            hendrerit convallis purus, sed
-                                            vestibulum nibh viverra at. Aenean tellus massa, aliquet sit amet elementum et,
-                                            faucibus ut metus.
-                                            Pellentesque sodales leo id vehicula varius. Pellentesque a odio consequat, ultrices
-                                            dolor quis, ultricies
-                                            mi. Etiam convallis nulla et sapien pellentesque, eget volutpat tortor fermentum.
-                                        </p>
-                                    </div>
-                                </div>
-        
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background: white; border: 1px solid #dddddd;">
+        <a class="navbar-brand" href="index.html">Brooks Riekhof</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 70%;">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container" style="background: white; border: 1px solid #dddddd; margin-top: 5%">
+        <h1 style="color: teal; margin-bottom: 5%; border-bottom: 2px solid grey;">Contact me</h1>
+        <form>
+            <div class="form-group" style="margin-top: 2%;">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Enter email">
             </div>
+            <div class="form-group">
+                <label for="exampleInputPassword1">Name</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Name">
             </div>
-        
+            <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="margin-bottom: 2%;">Submit</button>
+        </form>
+    </div>
+    <!-- Supposed Sticky Footer -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom" style="color: teal; padding-top: 2%">
+    </nav>
 </body>
 
 </html>

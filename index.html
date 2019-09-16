@@ -8,39 +8,70 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-
+    <style>
+        body {
+            background-color: #f1eff1;
+        }
+    </style>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #ffffff;">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-lg-3">
-                    <span class="navbar-brand mb-1 bg-info text-light h1">Brooks Riekhof</span>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                        data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                </div>
-                <div class="col-lg-6"></div>
-                <div class="col-lg-3">
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="nav navbar-nav navbar-right">
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html">About</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="portfolio.html">Portfolio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">Contact</a>
-                            </li>
-                        </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background: white; border: 1px solid #dddddd;">
+        <a class="navbar-brand" href="index.html">Brooks Riekhof</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent" style="margin-left: 70%;">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div></div>
+    <div class="container" style="background: white; border: 1px solid #dddddd; margin-top: 5%">
+        <div class="row">
+            <div class="col-sm-8">
+                <div class="page-header">
+                    <h1 style="color: teal; margin-bottom: 5%; border-bottom: 2px solid grey;">About me</h1>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <img src="https://placehold.it/200x200" class="image.me" alt="picture">
+                        </div>
+                        <div style="padding-left: 8%" class="col-sm-9">
+                            <div class="text">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pulvinar quam odio, eu
+                                    varius mauris dignissim
+                                    quis. Morbi risus arcu, placerat sit amet fermentum et, sodales a urna. Donec
+                                    faucibus rhoncus nibh eget
+                                    accumsan. Fusce non mattis odio. Morbi congue eu lorem id dapibus. Phasellus
+                                    hendrerit convallis purus, sed
+                                    vestibulum nibh viverra at. Aenean tellus massa, aliquet sit amet elementum et,
+                                    faucibus ut metus.
+                                    Pellentesque sodales leo id vehicula varius. Pellentesque a odio consequat, ultrices
+                                    dolor quis, ultricies
+                                    mi. Etiam convallis nulla et sapien pellentesque, eget volutpat tortor fermentum.
+                                </p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+    </div>
+    <!-- Supposed Sticky Footer -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-bottom" style="color: teal; padding-top: 2%">
     </nav>
 </body>
 
